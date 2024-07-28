@@ -34,17 +34,16 @@ const teamMember = [
     },
 ]
 
-
 for (let i = 0; i < teamMember.length; i++) {
     console.log(teamMember[i]);
-
     for (let key in teamMember[i]) {
         console.log('chiave ' + key); 
         console.log(teamMember[i][key]);
     }
 }
 
-document.querySelector('.array').innerHTML = teamMember[i][(key)];
+
+document.querySelector('.array').innerHTML = teamMember[0].name;
 
 
 
