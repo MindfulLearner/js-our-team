@@ -5,32 +5,32 @@ const teamMember = [
     {
         name: 'Wayne Barnet',
         role: 'Founder & CEO',
-        foto: './img/wayne-barnett-founder-ceo.jpg',
+        foto: '../img/wayne-barnett-founder-ceo.jpg',
     },
     {
         name: 'Angela Caroll',
         role: 'Chief Editor',
-        foto: './img/angela-caroll-chief-editor.jpg',
+        foto: '../img/angela-caroll-chief-editor.jpg',
     },
     {
         name: 'Walter Gordon',
         role: 'Office Manager',
-        foto: './img/walter-gordon-office-manager.jpg',
+        foto: '../img/walter-gordon-office-manager.jpg',
     },
     {
         name: 'Angela Lopez',
         role: 'Social Media Manager',
-        foto: './img/angela-lopez-social-media-manager.jpg',
+        foto: '../img/angela-lopez-social-media-manager.jpg',
     },
     {
         name: 'Scott Estrada',
         role: 'Developer',
-        foto: './img/scott-estrada-developer.jpg',
+        foto: '../img/scott-estrada-developer.jpg',
     },
     {
         name: 'Barbara Ramos',
         role: 'Graphic Designer',
-        foto: './img/barbara-ramos-graphic-designer.jpg',
+        foto: '../img/barbara-ramos-graphic-designer.jpg',
     },
 ]
 
@@ -43,6 +43,7 @@ for (let i = 0; i < teamMember.length; i++) {
 }
 
 
+document.querySelector('.array').innerHTML = teamMember[0].name;
 
 
 const array = document.querySelectorAll('.array');
@@ -53,9 +54,9 @@ const foto = document.querySelectorAll('.foto');
 
 for (let i = 0; i < array.length; i++) {
         nameName[i].innerHTML = teamMember[i].name;
-        role[i].innerHTML = teamMember[i].role;
-        foto[i].src = teamMember[i].foto;
     }
+}
+
 
 
 

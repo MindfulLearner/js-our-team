@@ -1,7 +1,7 @@
 /* swagger CSS */
 
 * {
-    border: 1px dashed black;    
+    border: 1px dashed white;    
 }
 
 body {
@@ -10,9 +10,23 @@ body {
 }
 
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.array {
+    width: calc((100% / 3) - 10px);
+
+}
 
 
-
+img {
+    width: 200px;
+}
 
 
 
